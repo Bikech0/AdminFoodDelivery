@@ -45,4 +45,15 @@
 hr {
     border-top: 2px solid black;
     width: 190%;
-  }
+}
+
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.left, .right{
+    display: inline-block;
+    width: 50%;
+}

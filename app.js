@@ -63,7 +63,6 @@ function change_cmd(cmds){
         for (let j=0; j<commands.length; j++){
             const command = commands[j];
             const desc = update_json(command, ["prod", "ingredient", "sauces", "salades", "Frites", "Size", "Pate", "price", "quantity", "delivery"]);
-            console.log(desc);
             new_cmds.push(desc);
         }
         const new_command = {"phone_number": phone_number, "commands": new_cmds};
